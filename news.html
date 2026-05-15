@@ -1,41 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Banbury Shed | News</title>
-</head>
-<body>
-  <header>
-    <h1>Banbury Shed News</h1>
-    <nav aria-label="Main navigation">
-      <a href="/index.html">About</a>
-      <a href="/news.html" aria-current="page">News</a>
-    </nav>
-  </header>
+---
+layout: default
+title: News
+permalink: /news/
+---
 
-  <main>
-    <section aria-labelledby="news-heading">
-      <h2 id="news-heading">Latest stories</h2>
+<section aria-labelledby="news-heading">
+  <h2 id="news-heading">Latest stories</h2>
 
-      <article>
-        <h3>Welcome to our new website</h3>
-        <p><time datetime="2026-05-15">15 May 2026</time></p>
-        <p>
-          This is our new news section where we can publish updates about events, projects,
-          and announcements from the shed.
-        </p>
-      </article>
-
-      <article>
-        <h3>How to add a new story</h3>
-        <p><time datetime="2026-05-15">15 May 2026</time></p>
-        <p>
-          Add a new <code>&lt;article&gt;</code> block to this page with a heading, date,
-          and short story text.
-        </p>
-      </article>
-    </section>
-  </main>
-</body>
-</html>
+  {% for post in site.posts %}
+  <article>
+    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    <p><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %B %Y" }}</time></p>
+    {{ post.excerpt }}
+  </article>
+  {% endfor %}
+</section>
