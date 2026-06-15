@@ -55,6 +55,11 @@
 
   var message;
 
+  function html(label, date) {
+    return '<span class="badge-label">' + label + '</span>'
+         + '<span class="badge-date">' + date + '</span>';
+  }
+
   if (thisEx && (thisEx.cancelled || thisEx.closed)) {
     // Find the next non-closed Saturday
     var search = new Date(nextSat);
@@ -73,17 +78,16 @@
     var closedMsg = (thisEx.message) ? thisEx.message : 'NO MEETING THIS WEEKEND!';
     badge.setAttribute('data-cancelled', 'true');
     if (nextGoodSat) {
-      message = closedMsg + ' Our next meeting is ' + formatSaturday(nextGoodSat) + ' @ ' + nextTime;
+      message = html(closedMsg, 'Our next meeting is<br>' + formatSaturday(nextGoodSat) + ' @ ' + nextTime);
     } else {
-      message = closedMsg;
+      message = html(closedMsg, '');
     }
   } else if (thisEx && thisEx.time) {
     var time = thisEx.time;
-    var laterOrEarlier = time > DEFAULT_TIME ? 'later' : 'earlier';
-    message = 'Next Meeting: we are opening ' + laterOrEarlier + ' than usual ' + relPrefix + formatSaturday(nextSat) + ' @ ' + time;
+    message = html('Next Meeting', relPrefix + formatSaturday(nextSat) + ' @ ' + time);
   } else {
-    message = 'Next Meeting: ' + relPrefix + formatSaturday(nextSat) + ' @ ' + DEFAULT_TIME;
+    message = html('Next Meeting', relPrefix + formatSaturday(nextSat) + ' @ ' + DEFAULT_TIME);
   }
 
-  badge.textContent = message;
+  badge.innerHTML = message;
 })();

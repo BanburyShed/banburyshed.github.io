@@ -1,0 +1,55 @@
+nav.site-nav {
+  margin-top: 0.9rem;
+}
+nav.site-nav a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  margin-right: 1.2rem;
+  font-size: 0.9rem;
+}
+nav.site-nav a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+.shed-hero {
+  width: 100%;
+  max-height: 320px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 1.5rem;
+  display: block;
+}
+header .inner {
+  position: relative;
+}
+.next-meeting-badge {
+  position: absolute;
+  top: 1rem;
+  right: 10rem;
+  width: 190px;
+  padding: 0.9rem 1rem 1.6rem;
+  background: #fef08a;
+  border: none;
+  border-radius: 1px;
+  color: #2a2a2a;
+  font-family: 'Marker Felt', 'Permanent Marker', cursive;
+  font-size: 1.05rem;
+  line-height: 1.55;
+  transform: rotate(2deg);
+  box-shadow: 3px 4px 14px rgba(0, 0, 0, 0.35);
+}
+.next-meeting-badge[data-cancelled="true"] {
+  background: #fca5a5;
+  color: #7f1d1d;
+}
+.next-meeting-badge .badge-label {
+  display: block;
+  text-align: center;
+  font-size: 1.3rem;
+  margin-bottom: 0.35rem;
+}
+.next-meeting-badge .badge-date {
+  display: block;
+  text-align: left;
+  font-size: 1.05rem;
+}
