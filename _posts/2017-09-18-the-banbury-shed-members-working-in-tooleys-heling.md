@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Banbury Shed members working in Tooleys, heling to fix the..."
+title: "The Banbury Shed members working in Tooleys"
 date: 2017-09-18 05:54:51 +0000
 source: facebook
 featured: false
@@ -14,4 +14,4 @@ images:
   - /assets/images/posts/1915458722041071.jpg
 ---
 
-The Banbury Shed members working in Tooleys, heling to fix the machines on the bridge entrance to the museum; a distant shot of the Shedders working in their "shed" at Tooleys but also on the museum bridge above it. Look at the beautiful "Banbury Shed" sign which they made!
+The Banbury Shed members working in Tooleys, helping to fix the machines on the bridge entrance to the museum; a distant shot of the Shedders working in their "shed" at Tooleys but also on the museum bridge above it. Look at the beautiful "Banbury Shed" sign which they made!

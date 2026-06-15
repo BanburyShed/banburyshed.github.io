@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Our second Men's Shed Session is coming! Please do not hesitate to..."
+title: "Our second Men's Shed Session is coming!"
 date: 2016-11-28 21:14:02 +0000
 source: facebook
 featured: false
