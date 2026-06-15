@@ -8,5 +8,3 @@ images: []
 ---
 
 This coming weekend, Saturday 18th,  the Shed is open!
-
-https://www.facebook.com/events/1022656378878628

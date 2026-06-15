@@ -11,5 +11,3 @@ images:
 Banbury Shed are considering running an event for local 3D Printing enthusiasts.
 
 We know there are quite a few of you out there in Banburyshire.
-
-Replay below if interested in getting together - and what you would like to see.
