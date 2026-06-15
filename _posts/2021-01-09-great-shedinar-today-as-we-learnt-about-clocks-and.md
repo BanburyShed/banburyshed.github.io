@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Great Shedinar today as we learnt about clocks and shared stories..."
+title: "Great Shedinar today as we learnt about clocks"
 date: 2021-01-09 20:31:47 +0000
 source: facebook
 featured: false

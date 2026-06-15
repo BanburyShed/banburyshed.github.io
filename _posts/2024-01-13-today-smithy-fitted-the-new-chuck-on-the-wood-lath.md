@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Today Smithy fitted the new chuck on the wood lathe and we made a..."
+title: "Today Smithy fitted the new chuck on the wood lathe"
 date: 2024-01-13 12:23:08 +0000
 source: facebook
 featured: false

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Wood not great today - a bit soft at the edges but two more candle..."
+title: "Wood not great today but two more candle holders off the production line"
 date: 2024-12-07 11:43:13 +0000
 source: facebook
 featured: false

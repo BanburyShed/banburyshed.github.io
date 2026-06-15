@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "In this weeks shednanigans, a two stroke engine, home made salt..."
+title: "In this week's Shednanigans: two stroke engine, salt scooper and rocking horse"
 date: 2023-12-02 17:04:35 +0000
 source: facebook
 featured: false

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Banbury Shed is a Branch of Royal Voluntary Service.  Here is a..."
+title: "Banbury Shed pays respects for HM The Queen"
 date: 2022-09-09 18:00:58 +0000
 source: facebook
 featured: false

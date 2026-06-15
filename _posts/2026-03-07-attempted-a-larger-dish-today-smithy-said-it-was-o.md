@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Attempted a larger dish today - Smithy said it was ok for a first..."
+title: "Attempted a larger dish today"
 date: 2026-03-07 12:44:30 +0000
 source: facebook
 featured: false

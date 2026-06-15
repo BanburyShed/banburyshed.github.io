@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Today’s project was sharpening the planer blades using the jig we..."
+title: "Today's project was sharpening the planer blades using our 3D printed jig"
 date: 2025-05-31 10:32:33 +0000
 source: facebook
 featured: false

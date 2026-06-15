@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Today’s bowl was across the grain so whilst it looks nice, it..."
+title: "Today's bowl was across the grain and sadly warped"
 date: 2024-03-09 15:57:17 +0000
 source: facebook
 featured: false

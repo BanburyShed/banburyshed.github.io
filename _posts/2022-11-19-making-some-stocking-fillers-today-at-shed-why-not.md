@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Making some stocking fillers today at shed.  Why not come along..."
+title: "Making some stocking fillers today at shed"
 date: 2022-11-19 10:09:06 +0000
 source: facebook
 featured: false

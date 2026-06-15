@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "This week was making a bowl with a matching lid - Smithy was..."
+title: "This week was making a bowl with a matching lid"
 date: 2024-02-18 19:18:03 +0000
 source: facebook
 featured: false

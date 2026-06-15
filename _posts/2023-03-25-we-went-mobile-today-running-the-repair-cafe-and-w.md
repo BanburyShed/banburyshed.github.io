@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "We went mobile today running the repair cafe and wood turning..."
+title: "We went mobile today running the repair cafe and wood turning demonstration"
 date: 2023-03-25 12:18:41 +0000
 source: facebook
 featured: false

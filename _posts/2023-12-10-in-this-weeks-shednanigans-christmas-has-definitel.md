@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "In this week's shednanigans, Christmas has definitely arrived,..."
+title: "In this week's Shednanigans, Christmas has definitely arrived"
 date: 2023-12-10 13:41:18 +0000
 source: facebook
 featured: false

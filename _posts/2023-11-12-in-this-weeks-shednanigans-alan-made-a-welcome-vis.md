@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "In this week's Shednanigans, Alan made a welcome visit to chat to..."
+title: "In this week's Shednanigans, Alan made a welcome visit"
 date: 2023-11-12 17:01:02 +0000
 source: facebook
 featured: false

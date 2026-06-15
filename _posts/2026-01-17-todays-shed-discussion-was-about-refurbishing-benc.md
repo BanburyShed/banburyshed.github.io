@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Today’s shed discussion was about refurbishing benches following..."
+title: "Today's shed discussion was about refurbishing benches after a small grant award"
 date: 2026-01-17 11:20:30 +0000
 source: facebook
 featured: false

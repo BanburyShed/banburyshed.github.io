@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Todays hat stand, splits in bottom so probably need to make..."
+title: "Today's hat stand has splits at the bottom"
 date: 2025-01-25 12:06:49 +0000
 source: facebook
 featured: false

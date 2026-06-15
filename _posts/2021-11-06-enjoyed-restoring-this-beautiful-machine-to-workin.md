@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Enjoyed restoring this beautiful machine to working order today..."
+title: "Enjoyed restoring this beautiful machine to working order"
 date: 2021-11-06 12:00:58 +0000
 source: facebook
 featured: false

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The groundworks outside the shed building are coming along nicely..."
+title: "The groundworks outside the shed building are coming along nicely"
 date: 2021-03-20 10:09:21 +0000
 source: facebook
 featured: false

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "In this week's Shednanigans, Graham turned Harry Potter wands for..."
+title: "In this week's Shednanigans, Graham turned Harry Potter wands"
 date: 2023-11-18 16:15:45 +0000
 source: facebook
 featured: false

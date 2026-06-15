@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Great job from Banbury Print & Design making us a laminated poster..."
+title: "Great job from Banbury Print & Design making us a laminated poster"
 date: 2021-09-09 07:48:06 +0000
 source: facebook
 featured: false

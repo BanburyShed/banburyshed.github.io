@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Todays woodturning - a piece of cherry from my garden into a tea..."
+title: "Today's woodturning — a piece of cherry into a tea light holder"
 date: 2024-10-12 11:04:08 +0000
 source: facebook
 featured: false
