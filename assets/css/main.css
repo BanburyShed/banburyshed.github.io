@@ -26,7 +26,7 @@ header .inner {
   position: absolute;
   top: 1rem;
   right: 10rem;
-  width: 190px;
+  width: 240px;
   padding: 0.9rem 1rem 1.6rem;
   background: #fef08a;
   border: none;
@@ -99,6 +99,6 @@ header .inner {
 }
 .next-meeting-badge .badge-date {
   display: block;
-  text-align: left;
+  text-align: center;
   font-size: 1.05rem;
 }
