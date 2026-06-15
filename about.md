@@ -2,6 +2,7 @@
 layout: default
 title: About
 permalink: /about/
+leaflet: true
 ---
 
 <section aria-labelledby="about-heading">
@@ -21,3 +22,5 @@ permalink: /about/
     New members are always welcome — just turn up!
   </p>
 </section>
+
+{% include find-us.html %}

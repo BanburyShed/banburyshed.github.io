@@ -2,6 +2,7 @@
 layout: default
 title: Contact us
 permalink: /contact/
+leaflet: true
 ---
 
 <section aria-labelledby="contact-heading">
@@ -12,9 +13,4 @@ permalink: /contact/
   </p>
 </section>
 
-<section aria-labelledby="find-us-contact-heading">
-  <h2 id="find-us-contact-heading">Where to find us</h2>
-  <p>Banbury Shed, People's Park, Banbury, OX16 2AB.</p>
-  <p>We are just through the black gates in People's Park, close to the Warwick Road entrance.</p>
-  <p>What 3 Words: <a href="https://w3w.co/cried.judges.earth">///cried.judges.earth</a></p>
-</section>
+{% include find-us.html %}

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Banbury Shed & RVS Community
+leaflet: true
 ---
 
 <img src="{{ '/assets/images/banbury_shed_cropped.jpg' | relative_url }}" alt="Banbury Shed" class="shed-hero">
@@ -31,12 +32,7 @@ title: Banbury Shed & RVS Community
   <p><a href="/news/">All news &rarr;</a></p>
 </section>
 
-<section aria-labelledby="find-us-heading">
-  <h2 id="find-us-heading">How to find us</h2>
-  <p>Banbury Shed, People's Park, Banbury, OX16 2AB.</p>
-  <p>We are just through the black gates in People's Park, close to the Warwick Road entrance.</p>
-  <p>What 3 Words: <a href="https://w3w.co/cried.judges.earth" target="_blank" rel="noopener">///cried.judges.earth</a></p>
-</section>
+{% include find-us.html %}
 
 <section aria-labelledby="contact-heading">
   <h2 id="contact-heading">Contact us</h2>

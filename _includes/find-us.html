@@ -1,0 +1,20 @@
+<section aria-labelledby="find-us-heading">
+  <h2 id="find-us-heading">How to find us</h2>
+  <p>Banbury Shed, People's Park, Banbury, OX16 2AB.</p>
+  <p>We are just through the black gates in People's Park, close to the Warwick Road entrance.</p>
+  <p>What 3 Words: <a href="https://w3w.co/cried.judges.earth" target="_blank" rel="noopener">///cried.judges.earth</a></p>
+  <div id="shed-map" style="height: 350px; margin-top: 1rem; border-radius: 4px;"></div>
+  <script>
+    (function () {
+      var map = L.map('shed-map').setView([52.063170, -1.343784], 17);
+      L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+      }).addTo(map);
+      L.marker([52.063170, -1.343784])
+        .addTo(map)
+        .bindPopup('<strong>Banbury Shed</strong><br>People\'s Park, Banbury')
+        .openPopup();
+    })();
+  </script>
+</section>
