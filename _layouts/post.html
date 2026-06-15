@@ -5,4 +5,11 @@ layout: default
   <h2>{{ page.title }}</h2>
   <p><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %B %Y" }}</time></p>
   {{ content }}
+  {% if page.images and page.images.size > 0 %}
+  <div class="post-images">
+    {% for image in page.images %}
+    <img src="{{ image | relative_url }}" alt="{{ page.title }}">
+    {% endfor %}
+  </div>
+  {% endif %}
 </article>

@@ -17,11 +17,15 @@ title: Banbury Shed & RVS Community
 
 <section aria-labelledby="news-heading">
   <h2 id="news-heading">Latest news</h2>
-  {% for post in site.posts limit:3 %}
+  {% assign featured_posts = site.posts | where_exp: "post", "post.featured" %}
+  {% for post in featured_posts limit:3 %}
   <article>
     <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
     <p><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %B %Y" }}</time></p>
     {{ post.excerpt }}
+    {% if post.images[0] %}
+    <img src="{{ post.images[0] | relative_url }}" alt="{{ post.title }}" class="post-thumb">
+    {% endif %}
   </article>
   {% endfor %}
   <p><a href="/news/">All news &rarr;</a></p>

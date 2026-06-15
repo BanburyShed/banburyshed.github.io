@@ -38,6 +38,25 @@ header .inner {
   transform: rotate(2deg);
   box-shadow: 3px 4px 14px rgba(0, 0, 0, 0.35);
 }
+.post-thumb {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+.post-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+.post-images img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  flex: 1 1 280px;
+}
 .next-meeting-badge[data-cancelled="true"] {
   background: #fca5a5;
   color: #7f1d1d;
