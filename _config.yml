@@ -1,0 +1,8 @@
+title: Banbury Shed
+description: Banbury Shed community website
+markdown: kramdown
+theme: jekyll-theme-architect
+github:
+  is_project_page: false
+  project_tagline: Banbury Shed community website
+
