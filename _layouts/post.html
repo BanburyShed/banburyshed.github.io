@@ -5,6 +5,9 @@ layout: default
   <h2>{{ page.title }}</h2>
   <p><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %B %Y" }}</time></p>
   {{ content }}
+  {% if page.source == "facebook" %}
+  <p class="post-source"><em>This post was originally published on <a href="https://www.facebook.com/BanburyShed" target="_blank" rel="noopener">our Facebook page</a>.</em></p>
+  {% endif %}
   {% if page.images and page.images.size > 0 %}
   <div class="post-images">
     {% for image in page.images %}
