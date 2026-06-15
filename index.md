@@ -10,8 +10,8 @@ leaflet: true
   <h2 id="about-heading">About Banbury Shed</h2>
   <p>
     Banbury Shed is a welcoming community workshop where people can share practical skills,
-    collaborate on projects, and enjoy good company. We meet every Saturday morning at 09:30 —
-    new members are always welcome, just turn up!
+    collaborate on projects, and enjoy good company. We meet nearly every Saturday morning at 09:30 (see the top of the page for our next meeting date).
+    New members are always welcome, just turn up!
   </p>
   <p><a href="/about/">More about us &rarr;</a></p>
 </section>
