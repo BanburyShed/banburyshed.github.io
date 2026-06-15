@@ -38,6 +38,36 @@ header .inner {
   transform: rotate(2deg);
   box-shadow: 3px 4px 14px rgba(0, 0, 0, 0.35);
 }
+.post-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #ddd;
+}
+.post-nav-link {
+  display: flex;
+  flex-direction: column;
+  max-width: 45%;
+  text-decoration: none;
+  color: inherit;
+}
+.post-nav-link:hover .post-nav-title {
+  text-decoration: underline;
+}
+.post-nav-label {
+  font-size: 0.8rem;
+  color: #888;
+  margin-bottom: 0.2rem;
+}
+.post-nav-title {
+  font-size: 0.95rem;
+}
+.post-nav-next {
+  margin-left: auto;
+  text-align: right;
+}
 .post-thumb {
   max-width: 100%;
   height: auto;

@@ -13,3 +13,18 @@ layout: default
   </div>
   {% endif %}
 </article>
+
+<nav class="post-nav" aria-label="Post navigation">
+  {% if page.previous %}
+  <a href="{{ page.previous.url | relative_url }}" class="post-nav-link post-nav-prev">
+    <span class="post-nav-label">&larr; Older</span>
+    <span class="post-nav-title">{{ page.previous.title }}</span>
+  </a>
+  {% endif %}
+  {% if page.next %}
+  <a href="{{ page.next.url | relative_url }}" class="post-nav-link post-nav-next">
+    <span class="post-nav-label">Newer &rarr;</span>
+    <span class="post-nav-title">{{ page.next.title }}</span>
+  </a>
+  {% endif %}
+</nav>
