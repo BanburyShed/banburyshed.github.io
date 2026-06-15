@@ -17,7 +17,7 @@ leaflet: true
 </section>
 
 <section aria-labelledby="news-heading">
-  <h2 id="news-heading">Latest news</h2>
+  <h2 id="news-heading"><a href="/news/">Latest news</a></h2>
   {% assign featured_posts = site.posts | where_exp: "post", "post.featured" %}
   {% for post in featured_posts limit:3 %}
   <article>
