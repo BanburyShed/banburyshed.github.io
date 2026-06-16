@@ -13,8 +13,8 @@ sessions:
       - user5
       - user6
     available:
-      - user1
       - user2
+      - user1
     unavailable:
   - date: "2026-06-27"
     status: tentative
