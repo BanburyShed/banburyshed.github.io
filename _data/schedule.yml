@@ -4,6 +4,7 @@ sessions:
     time: "17:30"
     message: Supervisor training session (not open to the public)
     supervisors:
+      - user2
     available:
     unavailable:
   - date: "2026-06-20"
