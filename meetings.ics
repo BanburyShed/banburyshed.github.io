@@ -1,0 +1,22 @@
+---
+layout: null
+permalink: /meetings.ics
+---
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Banbury Shed//NONSGML Meeting Schedule//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Banbury Shed Meetings
+X-WR-CALDESC:Community woodworking sessions at People's Park\, Banbury
+X-WR-TIMEZONE:Europe/London
+{% for session in site.data.schedule.sessions %}{% unless session.status == "private" %}{% if session.time %}{% assign mt = session.time %}{% else %}{% assign mt = site.default_meeting_time %}{% endif %}BEGIN:VEVENT
+UID:banburyshed-{{ session.date }}@banburyshed.org.uk
+DTSTART;TZID=Europe/London:{{ session.date | remove: "-" }}T{{ mt | remove: ":" }}00
+DURATION:PT3H
+SUMMARY:Banbury Shed{% if session.status == "cancelled" or session.status == "closed" %} (Cancelled){% endif %}
+LOCATION:People's Park\, Banbury{% if session.message %}
+DESCRIPTION:{{ session.message }}{% endif %}{% if session.status == "cancelled" or session.status == "closed" %}
+STATUS:CANCELLED{% endif %}
+END:VEVENT
+{% endunless %}{% endfor %}END:VCALENDAR
