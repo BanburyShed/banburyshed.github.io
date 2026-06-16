@@ -15,7 +15,6 @@ sessions:
       - user1
       - user2
     unavailable:
-    time: "09:30"
   - date: "2026-06-27"
     status: tentative
     supervisors:
@@ -25,7 +24,6 @@ sessions:
       - user6
     unavailable:
       - user1
-    time: "09:30"
   - date: "2026-07-04"
     status: tentative
     supervisors:
@@ -33,7 +31,6 @@ sessions:
     available:
     unavailable:
       - user4
-    time: "09:30"
   - date: "2026-07-11"
     status: tentative
     supervisors:
@@ -41,7 +38,6 @@ sessions:
     available:
     unavailable:
       - user3
-    time: "09:30"
   - date: "2026-07-18"
     status: tentative
     supervisors:
@@ -50,14 +46,12 @@ sessions:
     unavailable:
       - user3
       - user4
-    time: "09:30"
   - date: "2026-07-25"
     status: tentative
     supervisors:
     available:
       - user2
     unavailable:
-    time: "09:30"
   - date: "2026-08-01"
     status: tentative
     supervisors:
@@ -65,141 +59,118 @@ sessions:
     unavailable:
       - user4
       - user2
-    time: "09:30"
   - date: "2026-08-08"
     status: tentative
     supervisors:
     available:
     unavailable:
-    time: "09:30"
   - date: "2026-08-15"
     status: tentative
     supervisors:
     available:
     unavailable:
       - user4
-    time: "09:30"
   - date: "2026-08-22"
     status: tentative
     supervisors:
     available:
     unavailable:
       - user1
-    time: "09:30"
   - date: "2026-08-29"
     status: tentative
     supervisors:
     available:
     unavailable:
       - user4
-    time: "09:30"
   - date: "2026-09-05"
     status: tentative
     supervisors:
     available:
     unavailable:
-    time: "09:30"
   - date: "2026-09-12"
     status: tentative
     supervisors:
     available:
     unavailable:
-    time: "09:30"
   - date: "2026-09-19"
     status: tentative
     supervisors:
     available:
     unavailable:
-    time: "09:30"
   - date: "2026-09-26"
     status: tentative
     supervisors:
     available:
     unavailable:
-    time: "09:30"
   - date: "2026-10-03"
     status: tentative
     supervisors:
     available:
     unavailable:
-    time: "09:30"
   - date: "2026-10-10"
     status: tentative
     supervisors:
     available:
     unavailable:
-    time: "09:30"
   - date: "2026-10-17"
     status: tentative
     supervisors:
     available:
     unavailable:
-    time: "09:30"
   - date: "2026-10-24"
     status: tentative
     supervisors:
     available:
     unavailable:
-    time: "09:30"
   - date: "2026-10-31"
     status: tentative
     supervisors:
     available:
     unavailable:
-    time: "09:30"
   - date: "2026-11-07"
     status: tentative
     supervisors:
     available:
     unavailable:
-    time: "09:30"
   - date: "2026-11-14"
     status: tentative
     supervisors:
     available:
     unavailable:
-    time: "09:30"
   - date: "2026-11-21"
     status: tentative
     supervisors:
     available:
     unavailable:
-    time: "09:30"
   - date: "2026-11-28"
     status: tentative
     supervisors:
     available:
     unavailable:
-    time: "09:30"
   - date: "2026-12-05"
     status: tentative
     supervisors:
     available:
     unavailable:
-    time: "09:30"
   - date: "2026-12-12"
     status: tentative
     supervisors:
     available:
     unavailable:
-    time: "09:30"
   - date: "2026-12-19"
     status: tentative
     supervisors:
     available:
     unavailable:
-    time: "09:30"
   - date: "2026-12-26"
     status: closed
     message: WE ARE CLOSED FOR CHRISTMAS.
     supervisors:
     available:
     unavailable:
-    time: "09:30"
   - date: "2027-01-02"
     status: closed
     message: WE ARE CLOSED FOR CHRISTMAS.
     supervisors:
     available:
     unavailable:
-    time: "09:30"
