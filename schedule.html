@@ -1,0 +1,82 @@
+---
+layout: default
+title: Schedule
+permalink: /schedule/
+---
+
+<section aria-labelledby="schedule-heading">
+  <h2 id="schedule-heading">Upcoming sessions</h2>
+  <p>
+    Banbury Shed meets every Saturday at 09:30 at People's Park, Banbury.
+    A minimum of {{ site.min_supervisors }} supervisors is required for a session to run.
+  </p>
+
+  {% assign today = site.time | date: "%Y-%m-%d" %}
+  {% assign has_upcoming = false %}
+
+  {% for session in site.data.schedule.sessions %}
+    {% assign session_date = session.date | date: "%Y-%m-%d" %}
+    {% if session_date >= today %}
+      {% assign has_upcoming = true %}
+      {% assign supervisor_count = session.supervisors | size %}
+      {% assign available_count = session.available | size %}
+      {% assign unavailable_count = session.unavailable | size %}
+
+      <article class="session-card session-{{ session.status }}">
+        <div class="session-header">
+          <time class="session-date" datetime="{{ session.date }}">
+            {{ session.date | date: "%A %-d %B %Y" }}
+          </time>
+          <span class="session-badge session-badge-{{ session.status }}">
+            {{ session.status | capitalize }}
+          </span>
+          {% if session.status != "cancelled" and session.status != "closed" and supervisor_count < site.min_supervisors %}
+          <span class="session-badge session-badge-warning">
+            &#9888; Needs supervisors
+          </span>
+          {% endif %}
+        </div>
+
+        {% if session.status != "cancelled" and session.status != "closed" %}
+        <dl class="session-people">
+          <dt>Supervisors</dt>
+          <dd>
+            {% if supervisor_count == 0 %}
+              <em>None confirmed yet</em>
+            {% else %}
+              {% for id in session.supervisors %}
+                {% assign user = site.data.usernames.users[id] %}
+                {{ user.name }}{% unless forloop.last %}, {% endunless %}
+              {% endfor %}
+            {% endif %}
+          </dd>
+
+          {% if available_count > 0 %}
+          <dt>Also available</dt>
+          <dd>
+            {% for id in session.available %}
+              {% assign user = site.data.usernames.users[id] %}
+              {{ user.name }}{% unless forloop.last %}, {% endunless %}
+            {% endfor %}
+          </dd>
+          {% endif %}
+
+          {% if unavailable_count > 0 %}
+          <dt>Unavailable</dt>
+          <dd>
+            {% for id in session.unavailable %}
+              {% assign user = site.data.usernames.users[id] %}
+              {{ user.name }}{% unless forloop.last %}, {% endunless %}
+            {% endfor %}
+          </dd>
+          {% endif %}
+        </dl>
+        {% endif %}
+      </article>
+    {% endif %}
+  {% endfor %}
+
+  {% unless has_upcoming %}
+  <p>No upcoming sessions in the schedule yet.</p>
+  {% endunless %}
+</section>

@@ -5,4 +5,5 @@ theme: jekyll-theme-architect
 github:
   is_project_page: false
   project_tagline: Banbury Shed community website
+min_supervisors: 2
 
