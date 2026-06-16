@@ -15,7 +15,7 @@ permalink: /schedule/
 
   {% for session in site.data.schedule.sessions %}
     {% assign session_date = session.date | date: "%Y-%m-%d" %}
-    {% if session_date >= today %}
+    {% if session_date >= today and session.status != "private" %}
       {% assign has_upcoming = true %}
       {% assign supervisor_count = session.supervisors | size %}
       {% assign available_count = session.available | size %}

@@ -17,7 +17,7 @@
   }
 
   function isClosed(session) {
-    return session && (session.status === 'closed' || session.status === 'cancelled');
+    return session && (session.status === 'closed' || session.status === 'cancelled' || session.status === 'private');
   }
 
   function ordinal(n) {

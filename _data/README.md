@@ -30,10 +30,13 @@ sessions:
 - `tentative` — session likely to run but not fully staffed (orange)
 - `cancelled` — a specific session has been called off (red)
 - `closed` — planned closure, e.g. Christmas break (grey)
+- `private` — internal session not open to the public (purple); hidden from the public schedule page and meeting badge, but fully manageable in the admin tool
 
 `cancelled` and `closed` sessions hide the supervisors/available/unavailable section
 and suppress the "Needs supervisors" warning. The distinction is tone: `cancelled`
 implies a session that was expected to run but won't; `closed` implies a planned break.
+`private` sessions behave like `tentative` in the admin (supervisors can sign up) but
+are invisible to the public.
 
 > **Note:** blank lines between sessions and list ordering within a session may be
 > normalised on the first write by the server app. After that initial commit, diffs
