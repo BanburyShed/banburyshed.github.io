@@ -1,4 +1,5 @@
 title: Banbury Shed
+repository: BanburyShed/banburyshed.github.io
 description: Banbury Shed community website
 markdown: kramdown
 theme: jekyll-theme-architect
