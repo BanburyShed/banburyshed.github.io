@@ -8,7 +8,6 @@ permalink: /schedule/
   <h2 id="schedule-heading">Upcoming sessions</h2>
   <p>
     Banbury Shed meets every Saturday at 09:30 at People's Park, Banbury.
-    A minimum of {{ site.min_supervisors }} supervisors is required for a session to run.
   </p>
 
   {% assign today = site.time | date: "%Y-%m-%d" %}
@@ -25,7 +24,8 @@ permalink: /schedule/
       <article class="session-card session-{{ session.status }}">
         <div class="session-header">
           <time class="session-date" datetime="{{ session.date }}">
-            {{ session.date | date: "%A %-d %B %Y" }}
+            {% if session.time %}{% assign meeting_time = session.time %}{% else %}{% assign meeting_time = site.default_meeting_time %}{% endif %}
+            {{ session.date | date: "%A %-d %B %Y" }} at {{ meeting_time }}
           </time>
           <span class="session-badge session-badge-{{ session.status }}">
             {{ session.status | capitalize }}

@@ -1,27 +1,10 @@
 # _data files
 
-## meetings.yml
-
-Controls exceptions to the default weekly schedule (every Saturday at 09:30).
-Only dates that differ from normal need an entry — no entry means a normal session.
-
-```yaml
-exceptions:
-  - date: 2026-12-27        # ISO date, unquoted is fine here
-    closed: true            # cancels the session
-    message: WE ARE CLOSED FOR CHRISTMAS.  # optional; default: "NO MEETING THIS WEEKEND!"
-
-  - date: 2026-06-14
-    time: "10:00"           # time change only (no closed: key)
-```
-
-This data is read by `assets/js/next-meeting.js` to populate the header badge.
-
----
-
 ## schedule.yml
 
-Upcoming session entries used by `schedule.html`. One entry per Saturday.
+Upcoming session entries used by both `schedule.html` and the header meeting badge
+(`assets/js/next-meeting.js`). One entry per Saturday.
+
 Dates must be **quoted strings** (`"2026-06-21"`) — unquoted YAML dates are parsed
 as Ruby Date objects, which breaks the Liquid string comparison used to filter
 past sessions.
@@ -30,6 +13,8 @@ past sessions.
 sessions:
   - date: "2026-06-21"
     status: confirmed       # confirmed | tentative | cancelled | closed
+    time: "10:00"           # optional — overrides the default 09:30 start time
+    message: CLOSED TODAY.  # optional — custom badge message when status is closed/cancelled
     supervisors:            # users who have agreed to supervise
       - user1
       - user3
@@ -50,9 +35,10 @@ sessions:
 and suppress the "Needs supervisors" warning. The distinction is tone: `cancelled`
 implies a session that was expected to run but won't; `closed` implies a planned break.
 
-`min_supervisors` (currently 2) is set in `_config.yml`.
+The badge JS treats any Saturday with no entry as a normal session at `DEFAULT_TIME`
+(09:30). Saturdays beyond the end of `schedule.yml` are always treated as normal.
 
-User IDs (e.g. `user1`) are resolved to names via `usernames.yml`.
+`min_supervisors` (currently 2) is set in `_config.yml`.
 
 The server app's logic when a user submits their availability:
 1. If `supervisors` list is shorter than `min_supervisors`, add them to `supervisors`

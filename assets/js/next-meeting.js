@@ -1,19 +1,23 @@
 (function () {
   var badge = document.getElementById('next-meeting-badge');
-  var exceptionsEl = document.getElementById('meeting-exceptions');
+  var sessionsEl = document.getElementById('schedule-sessions');
 
   if (!badge) return;
 
-  var DEFAULT_TIME = '09:30';
+  var DEFAULT_TIME = (sessionsEl && sessionsEl.getAttribute('data-default-time')) || '09:30';
 
-  var exceptions = {};
-  if (exceptionsEl) {
+  var sessions = {};
+  if (sessionsEl) {
     try {
-      var arr = JSON.parse(exceptionsEl.textContent || 'null') || [];
+      var arr = JSON.parse(sessionsEl.textContent || 'null') || [];
       for (var i = 0; i < arr.length; i++) {
-        if (arr[i] && arr[i].date) exceptions[arr[i].date] = arr[i];
+        if (arr[i] && arr[i].date) sessions[arr[i].date] = arr[i];
       }
     } catch (_e) {}
+  }
+
+  function isClosed(session) {
+    return session && (session.status === 'closed' || session.status === 'cancelled');
   }
 
   function ordinal(n) {
@@ -51,7 +55,7 @@
   var relPrefix = daysAway === 0 ? 'today, ' : daysAway === 1 ? 'tomorrow, ' : '';
 
   var thisKey = dateKey(nextSat);
-  var thisEx = exceptions[thisKey];
+  var thisSession = sessions[thisKey];
 
   var message;
 
@@ -60,7 +64,7 @@
          + '<span class="badge-date">' + date + '</span>';
   }
 
-  if (thisEx && (thisEx.cancelled || thisEx.closed)) {
+  if (isClosed(thisSession)) {
     // Find the next non-closed Saturday
     var search = new Date(nextSat);
     var nextGoodSat = null;
@@ -68,23 +72,22 @@
     for (var j = 0; j < 52; j++) {
       search.setDate(search.getDate() + 7);
       var key = dateKey(search);
-      var ex = exceptions[key];
-      if (!ex || (!ex.cancelled && !ex.closed)) {
+      var s = sessions[key];
+      if (!isClosed(s)) {
         nextGoodSat = new Date(search);
-        nextTime = (ex && ex.time) ? ex.time : DEFAULT_TIME;
+        nextTime = (s && s.time) ? s.time : DEFAULT_TIME;
         break;
       }
     }
-    var closedMsg = (thisEx.message) ? thisEx.message : 'NO MEETING THIS WEEKEND!';
+    var closedMsg = (thisSession.message) ? thisSession.message : 'NO MEETING THIS WEEKEND!';
     badge.setAttribute('data-cancelled', 'true');
     if (nextGoodSat) {
       message = html(closedMsg, 'Our next meeting is<br>' + formatSaturday(nextGoodSat) + ' @ ' + nextTime);
     } else {
       message = html(closedMsg, '');
     }
-  } else if (thisEx && thisEx.time) {
-    var time = thisEx.time;
-    message = html('Next Meeting', relPrefix + formatSaturday(nextSat) + ' @ ' + time);
+  } else if (thisSession && thisSession.time) {
+    message = html('Next Meeting', relPrefix + formatSaturday(nextSat) + ' @ ' + thisSession.time);
   } else {
     message = html('Next Meeting', relPrefix + formatSaturday(nextSat) + ' @ ' + DEFAULT_TIME);
   }

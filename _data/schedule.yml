@@ -184,6 +184,14 @@ sessions:
 
   - date: "2026-12-26"
     status: closed
+    message: WE ARE CLOSED FOR CHRISTMAS.
+    supervisors:
+    available:
+    unavailable:
+
+  - date: "2027-01-02"
+    status: closed
+    message: WE ARE CLOSED FOR CHRISTMAS.
     supervisors:
     available:
     unavailable:

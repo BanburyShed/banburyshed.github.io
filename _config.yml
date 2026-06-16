@@ -6,4 +6,5 @@ github:
   is_project_page: false
   project_tagline: Banbury Shed community website
 min_supervisors: 2
+default_meeting_time: "09:30"
 
