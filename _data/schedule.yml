@@ -4,18 +4,19 @@ sessions:
     time: "17:30"
     message: Supervisor training session (not open to the public)
     supervisors:
-      - user2
       - user1
+      - user2
     available:
     unavailable:
+    end_time: "19:00"
   - date: "2026-06-20"
     status: confirmed
     supervisors:
       - user5
       - user6
     available:
-      - user2
       - user1
+      - user2
     unavailable:
   - date: "2026-06-27"
     status: tentative
