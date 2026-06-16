@@ -8,15 +8,18 @@ PRODID:-//Banbury Shed//NONSGML Meeting Schedule//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Banbury Shed Meetings
-X-WR-CALDESC:Community woodworking sessions at People's Park\, Banbury
+X-WR-CALDESC:Community sessions at People's Park\, Banbury
 X-WR-TIMEZONE:Europe/London
-{% for session in site.data.schedule.sessions %}{% unless session.status == "private" %}{% if session.time %}{% assign mt = session.time %}{% else %}{% assign mt = site.default_meeting_time %}{% endif %}BEGIN:VEVENT
+X-PUBLISHED-TTL:P1D
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+{% for session in site.data.schedule.sessions %}{% unless session.status == "private" %}{% if session.time %}{% assign mt = session.time %}{% else %}{% assign mt = site.default_meeting_time %}{% endif %}{% if session.end_time %}{% assign et = session.end_time %}{% else %}{% assign et = site.default_meeting_end_time %}{% endif %}{%- assign desc = "" -%}{%- if session.status == "tentative" -%}{%- assign desc = "We are waiting for confirmation of supervisors before we officially schedule this meeting." -%}{%- endif -%}{%- if session.message -%}{%- if desc != "" -%}{%- assign desc = desc | append: "\n" -%}{%- endif -%}{%- assign desc = desc | append: session.message -%}{%- endif -%}BEGIN:VEVENT
 UID:banburyshed-{{ session.date }}@banburyshed.org.uk
 DTSTART;TZID=Europe/London:{{ session.date | remove: "-" }}T{{ mt | remove: ":" }}00
-DURATION:PT3H
-SUMMARY:Banbury Shed{% if session.status == "cancelled" or session.status == "closed" %} (Cancelled){% endif %}
-LOCATION:People's Park\, Banbury{% if session.message %}
-DESCRIPTION:{{ session.message }}{% endif %}{% if session.status == "cancelled" or session.status == "closed" %}
+DTEND;TZID=Europe/London:{{ session.date | remove: "-" }}T{{ et | remove: ":" }}00
+SUMMARY:Banbury Shed{% if session.status == "tentative" %} (Tentative){% elsif session.status == "cancelled" %} (Cancelled){% elsif session.status == "closed" %} (Closed){% endif %}
+LOCATION:People's Park\, Banbury{% if desc != "" %}
+DESCRIPTION:{{ desc }}{% endif %}{% if session.status == "tentative" %}
+STATUS:TENTATIVE{% endif %}{% if session.status == "cancelled" or session.status == "closed" %}
 STATUS:CANCELLED{% endif %}
 END:VEVENT
 {% endunless %}{% endfor %}END:VCALENDAR

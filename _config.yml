@@ -8,4 +8,5 @@ github:
   project_tagline: Banbury Shed community website
 min_supervisors: 2
 default_meeting_time: "09:30"
+default_meeting_end_time: "13:00"
 
