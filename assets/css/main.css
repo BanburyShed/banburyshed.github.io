@@ -22,6 +22,13 @@ nav.site-nav a:hover {
 header .inner {
   position: relative;
 }
+@keyframes sticky-note-drop {
+  0%   { transform: rotate(2deg) scaleY(0); opacity: 0; }
+  65%  { transform: rotate(2deg) scaleY(1.06); opacity: 1; }
+  82%  { transform: rotate(2deg) scaleY(0.97); }
+  100% { transform: rotate(2deg) scaleY(1); }
+}
+
 .next-meeting-badge {
   position: absolute;
   top: 1rem;
@@ -35,8 +42,10 @@ header .inner {
   font-family: 'Marker Felt', 'Permanent Marker', cursive;
   font-size: 1.05rem;
   line-height: 1.55;
+  transform-origin: top center;
   transform: rotate(2deg);
   box-shadow: 3px 4px 14px rgba(0, 0, 0, 0.35);
+  animation: sticky-note-drop 0.5s ease-out both;
 }
 .session-card {
   border-left: 4px solid #ccc;
