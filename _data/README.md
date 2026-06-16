@@ -35,6 +35,10 @@ sessions:
 and suppress the "Needs supervisors" warning. The distinction is tone: `cancelled`
 implies a session that was expected to run but won't; `closed` implies a planned break.
 
+> **Note:** blank lines between sessions and list ordering within a session may be
+> normalised on the first write by the server app. After that initial commit, diffs
+> will only show the lines that actually changed.
+
 The badge JS treats any Saturday with no entry as a normal session at `DEFAULT_TIME`
 (09:30). Saturdays beyond the end of `schedule.yml` are always treated as normal.
 
