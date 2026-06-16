@@ -10,8 +10,14 @@ permalink: /schedule/
     Banbury Shed meets every Saturday at {{ site.default_meeting_time }} at People's Park, Banbury.
   </p>
   <p style="font-size:0.9rem">
-    <a href="/meetings.ics">Subscribe to calendar</a> — add upcoming sessions directly to Apple Calendar, Google Calendar, or Outlook.
+    <a href="/meetings.ics" id="cal-link">Subscribe to calendar</a> — add upcoming sessions directly to Apple Calendar, Google Calendar, or Outlook.
   </p>
+  <script>
+    (function () {
+      var a = document.getElementById('cal-link');
+      if (a) a.href = a.href.replace(/^https?:/, 'webcal:');
+    })();
+  </script>
 
   {% assign today = site.time | date: "%Y-%m-%d" %}
   {% assign has_upcoming = false %}
