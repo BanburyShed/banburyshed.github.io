@@ -44,11 +44,11 @@ sessions:
   - date: "2026-07-18"
     status: tentative
     supervisors:
-      - user2
     available:
     unavailable:
       - user3
       - user4
+      - user2
   - date: "2026-07-25"
     status: tentative
     supervisors:
