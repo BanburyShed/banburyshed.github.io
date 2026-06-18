@@ -1,0 +1,32 @@
+---
+layout: default
+title: News
+---
+
+<section aria-labelledby="news-heading">
+  <h2 id="news-heading">Latest stories</h2>
+
+  {% for post in paginator.posts %}
+  <article>
+    <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+    <p><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %B %Y" }}</time></p>
+    {{ post.excerpt }}
+  </article>
+  {% endfor %}
+
+  {% if paginator.total_pages > 1 %}
+  <nav class="news-pagination" aria-label="News page navigation">
+    {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | relative_url }}" class="news-pagination-link">&larr; Newer</a>
+    {% else %}
+    <span class="news-pagination-link disabled">&larr; Newer</span>
+    {% endif %}
+    <span class="news-pagination-info">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | relative_url }}" class="news-pagination-link">Older &rarr;</a>
+    {% else %}
+    <span class="news-pagination-link disabled">Older &rarr;</span>
+    {% endif %}
+  </nav>
+  {% endif %}
+</section>

@@ -9,4 +9,6 @@ github:
 min_supervisors: 2
 default_meeting_time: "09:30"
 default_meeting_end_time: "13:00"
+paginate: 10
+paginate_path: "/news/page/:num/"
 
