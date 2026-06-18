@@ -15,4 +15,9 @@ _site/
 # This means GitHub Pages will NOT use your Gemfile.lock and therefore it is
 # counterproductive to check this file into the repository.
 # Details at https://github.com/github/pages-gem/issues/768
-Gemfile.lock
+#
+# HOWEVER, our self-hosted preview site builds with `bundle install` directly
+# and therefore DOES honour Gemfile.lock. We check it in to pin gem versions
+# on the preview server as a limited protection against supply-chain attacks.
+# Note this provides no protection for the live GitHub Pages site.
+# Gemfile.lock
