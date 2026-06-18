@@ -71,12 +71,14 @@ sessions:
     status: tentative
     supervisors:
     available:
+      - user2
     unavailable:
       - user4
   - date: "2026-08-22"
     status: tentative
     supervisors:
     available:
+      - user2
     unavailable:
       - user1
   - date: "2026-08-29"
@@ -90,6 +92,7 @@ sessions:
     supervisors:
     available:
     unavailable:
+      - user2
   - date: "2026-09-12"
     status: tentative
     supervisors:
