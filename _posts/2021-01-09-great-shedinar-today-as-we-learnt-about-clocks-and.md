@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-gallery
 title: "Great Shedinar today as we learnt about clocks"
 date: 2021-01-09 20:31:47 +0000
 source: facebook

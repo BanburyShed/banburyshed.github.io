@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-gallery
 title: "The Banbury Shed members working in Tooleys"
 date: 2017-09-18 05:54:51 +0000
 source: facebook

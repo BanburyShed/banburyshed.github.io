@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-gallery
 title: "Trying out the newly refurbished multi-function machine (metalwork lathe)"
 date: 2023-08-19 09:50:31 +0000
 source: facebook

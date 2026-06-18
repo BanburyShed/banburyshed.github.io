@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-gallery
 title: "In this week's Shednanigans, Jim made his third spoon in record time"
 date: 2023-11-26 20:20:18 +0000
 source: facebook

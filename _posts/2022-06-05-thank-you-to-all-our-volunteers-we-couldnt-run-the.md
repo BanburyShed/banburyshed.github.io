@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-gallery
 title: "Thank you to all our volunteers"
 date: 2022-06-05 12:05:23 +0000
 source: facebook

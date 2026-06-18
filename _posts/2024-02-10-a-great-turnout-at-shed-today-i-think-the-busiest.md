@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-gallery
 title: "A great turnout at shed today - the busiest I have ever seen it"
 date: 2024-02-10 12:59:42 +0000
 source: facebook

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-gallery
 title: "Today Smithy helped replace the brim stiffener in my leather hat"
 date: 2024-05-18 10:34:43 +0000
 source: facebook

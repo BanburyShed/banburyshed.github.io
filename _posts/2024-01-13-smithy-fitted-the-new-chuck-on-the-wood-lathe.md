@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-gallery
 title: "Today Smithy fitted the new chuck on the wood lathe"
 date: 2024-01-13 12:23:08 +0000
 source: facebook

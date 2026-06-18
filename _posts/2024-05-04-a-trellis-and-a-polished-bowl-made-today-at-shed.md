@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-gallery
 title: "A trellis and a polished bowl made today at shed"
 date: 2024-05-04 10:40:04 +0000
 source: facebook

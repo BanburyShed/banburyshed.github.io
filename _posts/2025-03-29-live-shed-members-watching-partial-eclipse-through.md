@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-gallery
 title: "Live - shed members watching partial eclipse through welding visor"
 date: 2025-03-29 10:31:09 +0000
 source: facebook

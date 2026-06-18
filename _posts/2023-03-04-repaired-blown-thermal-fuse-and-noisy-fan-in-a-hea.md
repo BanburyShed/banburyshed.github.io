@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-gallery
 title: "Repaired blown thermal fuse and noisy fan in a heater."
 date: 2023-03-04 11:35:14 +0000
 source: facebook

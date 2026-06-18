@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-gallery
 title: "In this week's Shednanigans, Jim made a spoon from scratch"
 date: 2023-11-05 11:06:25 +0000
 source: facebook

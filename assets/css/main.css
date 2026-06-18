@@ -125,6 +125,34 @@ header .inner {
   margin-left: auto;
   text-align: right;
 }
+.post-meta {
+  color: #888;
+  font-size: 0.9rem;
+  margin-bottom: 0.75rem;
+}
+.post-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 0.5rem;
+  margin-top: 1.25rem;
+}
+.post-gallery-item {
+  display: block;
+  overflow: hidden;
+  border-radius: 4px;
+  aspect-ratio: 1;
+  background: #f0f0f0;
+}
+.post-gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.2s ease;
+}
+.post-gallery-item:hover img {
+  transform: scale(1.04);
+}
 .post-thumb {
   max-width: 100%;
   height: auto;

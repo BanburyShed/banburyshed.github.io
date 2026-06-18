@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-gallery
 title: "Today I made two bowls from a cherry tree I felled last year"
 date: 2024-02-03 12:17:13 +0000
 source: facebook

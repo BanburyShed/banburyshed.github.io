@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-gallery
 title: "Preowned tools available at Orinoco - The Oxfordshire Scrapstore"
 date: 2020-12-13 08:51:22 +0000
 source: facebook

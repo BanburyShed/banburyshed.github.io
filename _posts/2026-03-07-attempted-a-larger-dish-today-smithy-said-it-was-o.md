@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-gallery
 title: "Attempted a larger dish today"
 date: 2026-03-07 12:44:30 +0000
 source: facebook

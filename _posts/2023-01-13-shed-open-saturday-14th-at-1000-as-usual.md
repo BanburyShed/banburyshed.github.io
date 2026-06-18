@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-gallery
 title: "Shed open Saturday 14th at 10:00 as usual."
 date: 2023-01-13 11:42:08 +0000
 source: facebook

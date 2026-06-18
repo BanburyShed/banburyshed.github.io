@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-gallery
 title: "Enjoying the Shed Christmas Lunch after another successful year."
 date: 2025-12-20 12:45:39 +0000
 source: facebook

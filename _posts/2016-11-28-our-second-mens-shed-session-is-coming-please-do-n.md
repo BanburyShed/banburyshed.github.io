@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-gallery
 title: "Our second Men's Shed Session is coming!"
 date: 2016-11-28 21:14:02 +0000
 source: facebook

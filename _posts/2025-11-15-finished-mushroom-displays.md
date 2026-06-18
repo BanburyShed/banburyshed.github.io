@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-gallery
 title: "Finished mushroom displays"
 date: 2025-11-15 09:44:33 +0000
 source: facebook

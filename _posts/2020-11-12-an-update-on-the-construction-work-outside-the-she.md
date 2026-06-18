@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-gallery
 title: "An update on the construction work outside the shed"
 date: 2020-11-12 08:23:08 +0000
 source: facebook

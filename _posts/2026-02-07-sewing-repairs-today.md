@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-gallery
 title: "Sewing repairs today"
 date: 2026-02-07 11:00:51 +0000
 source: facebook

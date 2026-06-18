@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-gallery
 title: "The 3D printing team testing out a potholemeter design"
 date: 2026-05-02 10:18:31 +0000
 source: facebook

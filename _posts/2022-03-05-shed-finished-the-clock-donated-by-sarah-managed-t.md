@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-gallery
 title: "Shed finished the clock donated by Sarah"
 date: 2022-03-05 10:34:15 +0000
 source: facebook

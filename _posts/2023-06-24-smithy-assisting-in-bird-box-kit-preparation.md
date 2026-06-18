@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-gallery
 title: "Smithy assisting in bird box kit preparation"
 date: 2023-06-24 10:15:19 +0000
 source: facebook

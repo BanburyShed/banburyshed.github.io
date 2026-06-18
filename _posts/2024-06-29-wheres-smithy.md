@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-gallery
 title: "Where’s Smithy"
 date: 2024-06-29 10:00:34 +0000
 source: facebook

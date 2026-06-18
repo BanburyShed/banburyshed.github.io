@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-gallery
 title: "Today’s mushroom mass production"
 date: 2025-12-06 11:46:37 +0000
 source: facebook

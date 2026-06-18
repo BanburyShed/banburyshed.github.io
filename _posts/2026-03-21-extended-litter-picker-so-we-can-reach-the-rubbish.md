@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-gallery
 title: "Extended litter picker to reach the rubbish by the railway station bridge"
 date: 2026-03-21 10:37:29 +0000
 source: facebook

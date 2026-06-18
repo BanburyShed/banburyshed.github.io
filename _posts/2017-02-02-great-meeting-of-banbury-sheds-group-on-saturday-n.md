@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-gallery
 title: "Great meeting of Banbury Sheds group on Saturday"
 date: 2017-02-02 17:45:55 +0000
 source: facebook

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-gallery
 title: "Shed outing to the Oxfordshire Museum, Woodstock"
 date: 2022-02-26 17:24:38 +0000
 source: facebook

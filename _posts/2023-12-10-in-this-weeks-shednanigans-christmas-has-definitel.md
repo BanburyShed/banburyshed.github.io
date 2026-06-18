@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-gallery
 title: "In this week's Shednanigans, Christmas has definitely arrived"
 date: 2023-12-10 13:41:18 +0000
 source: facebook

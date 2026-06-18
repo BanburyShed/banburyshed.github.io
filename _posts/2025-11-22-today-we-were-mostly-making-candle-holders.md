@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-gallery
 title: "Today we were mostly making candle holders"
 date: 2025-11-22 11:27:24 +0000
 source: facebook

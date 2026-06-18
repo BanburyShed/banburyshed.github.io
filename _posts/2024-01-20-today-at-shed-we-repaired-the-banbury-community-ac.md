@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-gallery
 title: "Today at shed we repaired the Banbury Community Action Group apple press"
 date: 2024-01-20 12:31:51 +0000
 source: facebook

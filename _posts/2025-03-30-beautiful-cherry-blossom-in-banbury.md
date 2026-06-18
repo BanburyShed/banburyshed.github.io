@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-gallery
 title: "Beautiful cherry blossom in Banbury"
 date: 2025-03-30 08:04:25 +0000
 source: facebook

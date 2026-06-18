@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-gallery
 title: "Today’s project, making wooden fruit"
 date: 2023-03-18 11:15:31 +0000
 source: facebook

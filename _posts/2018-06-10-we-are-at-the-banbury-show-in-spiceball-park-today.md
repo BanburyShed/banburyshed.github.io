@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-gallery
 title: "We are at the Banbury Show in Spiceball Park today"
 date: 2018-06-10 09:22:41 +0000
 source: facebook

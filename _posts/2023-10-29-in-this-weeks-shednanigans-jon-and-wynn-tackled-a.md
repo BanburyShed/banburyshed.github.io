@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-gallery
 title: "In this week's Shednanigans, Jon and Wynn tackled a misbehaving Wood Chipper"
 date: 2023-10-29 18:42:26 +0000
 source: facebook

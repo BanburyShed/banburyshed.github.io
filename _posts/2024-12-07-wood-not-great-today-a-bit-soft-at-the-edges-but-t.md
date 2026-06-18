@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-gallery
 title: "Wood not great today but two more candle holders off the production line"
 date: 2024-12-07 11:43:13 +0000
 source: facebook

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-gallery
 title: "Smithy testing his dust protection PPE in the shed"
 date: 2024-01-06 13:45:32 +0000
 source: facebook

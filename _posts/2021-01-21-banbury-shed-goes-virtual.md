@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-gallery
 title: "Banbury Shed goes virtual"
 date: 2021-01-21 15:16:00 +0000
 source: facebook

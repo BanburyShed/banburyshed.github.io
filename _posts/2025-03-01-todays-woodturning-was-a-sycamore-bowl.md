@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-gallery
 title: "Todays woodturning was a sycamore bowl"
 date: 2025-03-01 12:26:28 +0000
 source: facebook

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-gallery
 title: "Further work renovating the benches for Bridge Street Garden Banbury"
 date: 2026-03-21 10:59:43 +0000
 source: facebook
