@@ -255,6 +255,69 @@ header .inner {
   border-radius: 4px;
   flex: 1 1 280px;
 }
+/* ── Responsive ────────────────────────────────────────────────────────── */
+.nav-toggle { display: none; }
+
+/* Badge goes inline at all sub-desktop widths (Architect leaves full desktop
+   layout at 960px, so the absolute badge overlaps heading text below that) */
+@media (max-width: 959px) {
+  header h1 {
+    font-size: 2.2rem;
+  }
+  header h2 {
+    font-size: 1rem;
+  }
+  .next-meeting-badge {
+    position: static;
+    display: block;
+    width: auto;
+    margin-top: 0.75rem;
+  }
+}
+
+/* Hamburger nav — mobile only */
+@media (max-width: 640px) {
+  header h1 {
+    font-size: 1.6rem;
+    padding-right: 3rem;
+  }
+  header h2 {
+    font-size: 0.85rem;
+  }
+  .nav-toggle {
+    display: block;
+    position: absolute;
+    top: 0.55rem;
+    right: 0;
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0.55);
+    border-radius: 4px;
+    color: #fff;
+    font-size: 1.3rem;
+    line-height: 1;
+    padding: 0.2rem 0.55rem;
+    cursor: pointer;
+  }
+  nav.site-nav {
+    display: none;
+    flex-direction: column;
+    gap: 0;
+    margin-top: 0.75rem;
+  }
+  nav.site-nav.open {
+    display: flex;
+  }
+  nav.site-nav a {
+    margin-right: 0;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    font-size: 1rem;
+  }
+  nav.site-nav a:last-child {
+    border-bottom: none;
+  }
+}
+
 /* ── Site footer ───────────────────────────────────────────────────────── */
 .site-footer {
   background: #fff;

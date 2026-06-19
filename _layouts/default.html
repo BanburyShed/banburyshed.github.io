@@ -36,6 +36,7 @@
         </a>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
         <div id="next-meeting-badge" class="next-meeting-badge" aria-live="polite"></div>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">&#9776;</button>
         <nav class="site-nav" aria-label="Site navigation">
           <a href="{{ '/' | relative_url }}">Home</a>
           <a href="{{ '/news/' | relative_url }}">News</a>
@@ -76,6 +77,18 @@
       </div>
     </footer>
 
+    <script>
+    (function () {
+      var btn = document.querySelector('.nav-toggle');
+      var nav = document.querySelector('nav.site-nav');
+      if (btn && nav) {
+        btn.addEventListener('click', function () {
+          var open = nav.classList.toggle('open');
+          btn.setAttribute('aria-expanded', String(open));
+        });
+      }
+    }());
+    </script>
     <script id="schedule-sessions" type="application/json" data-default-time="{{ site.default_meeting_time }}">{{ site.data.schedule.sessions | jsonify }}</script>
     <script src="{{ '/assets/js/next-meeting.js' | relative_url }}"></script>
   </body>
