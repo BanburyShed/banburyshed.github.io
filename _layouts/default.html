@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" media="screen" type="text/css">
     <link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="print" type="text/css">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/favicon/apple-touch-icon.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/favicon/favicon-32x32.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/images/favicon/favicon-16x16.png' | relative_url }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Barlow:wght@400;600&family=Permanent+Marker&display=swap" rel="stylesheet">
     {% if page.leaflet %}
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
@@ -56,6 +59,21 @@
         </section>
       </div>
     </div>
+
+    <footer class="site-footer">
+      <div class="inner">
+        <div class="footer-inner">
+          <a href="https://www.royalvoluntaryservice.org.uk/" target="_blank" rel="noopener" class="footer-logo-link">
+            <img src="{{ '/assets/images/RVS_NEW_Colour_CMYK.png' | relative_url }}" alt="Royal Voluntary Service" class="footer-rvs-logo">
+          </a>
+          <div class="footer-text">
+            <p>Banbury Shed and RVS Community is a branch of the <a href="https://www.royalvoluntaryservice.org.uk/" target="_blank" rel="noopener">Royal Voluntary Service</a>.</p>
+            <p>Branch number 47369.</p>
+            <p>&copy;2026 Banbury Shed and RVS Community</p>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script id="schedule-sessions" type="application/json" data-default-time="{{ site.default_meeting_time }}">{{ site.data.schedule.sessions | jsonify }}</script>
     <script src="{{ '/assets/js/next-meeting.js' | relative_url }}"></script>

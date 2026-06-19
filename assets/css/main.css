@@ -1,3 +1,51 @@
+/* ── RVS brand ─────────────────────────────────────────────────────────── */
+/* Heritage Burgundy #b20051  |  Dark Purple #420044  |  Warm Grey #f2efeb */
+
+body {
+  background: #f2efeb;
+}
+#content-wrapper {
+  background: #fff;
+  padding-bottom: 2rem;
+}
+header {
+  background: linear-gradient(160deg, #420044 0%, #710045 100%);
+  border-bottom: solid 1px #2a0030;
+}
+header h1,
+header h2 {
+  font-family: 'Barlow Condensed', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+header h1 {
+  font-weight: 700;
+  letter-spacing: 0;
+}
+header h2 {
+  color: rgba(255, 255, 255, 0.82);
+  font-weight: 400;
+}
+a         { color: #b20051; }
+a:hover   { color: #420044; }
+#main-content h1,
+#main-content h2,
+#main-content h3,
+#main-content h4,
+#main-content h5,
+#main-content h6 {
+  font-family: 'Barlow Condensed', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  color: #420044;
+  text-indent: 0;
+  letter-spacing: 0;
+}
+#main-content h1:before,
+#main-content h2:before,
+#main-content h3:before,
+#main-content h4:before,
+#main-content h5:before,
+#main-content h6:before { content: none; }
+
+/* ── Site nav ──────────────────────────────────────────────────────────── */
 nav.site-nav {
   margin-top: 0.9rem;
 }
@@ -207,6 +255,42 @@ header .inner {
   border-radius: 4px;
   flex: 1 1 280px;
 }
+/* ── Site footer ───────────────────────────────────────────────────────── */
+.site-footer {
+  background: #fff;
+  border-top: 3px solid #b20051;
+  padding: 2rem 0 2.5rem;
+  margin-top: 0;
+  color: #420044;
+  font-size: 0.9rem;
+}
+.footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.footer-rvs-logo {
+  width: 140px;
+  height: auto;
+  display: block;
+  flex-shrink: 0;
+}
+.footer-text p {
+  margin: 0.3rem 0;
+  color: #420044;
+}
+.footer-text a {
+  color: #b20051;
+  font-weight: 600;
+}
+.footer-text a:hover {
+  color: #420044;
+}
+
+/* ── Next-meeting badge ────────────────────────────────────────────────── */
 .next-meeting-badge[data-cancelled="true"] {
   background: #fca5a5;
   color: #7f1d1d;
