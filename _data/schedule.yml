@@ -33,6 +33,7 @@ sessions:
     supervisors:
       - user2
     available:
+      - user6
     unavailable:
       - user4
   - date: "2026-07-11"
@@ -42,6 +43,7 @@ sessions:
     available:
     unavailable:
       - user3
+      - user6
   - date: "2026-07-18"
     status: tentative
     supervisors:
@@ -50,6 +52,7 @@ sessions:
       - user3
       - user4
       - user2
+      - user6
   - date: "2026-07-25"
     status: tentative
     supervisors:
