@@ -1,8 +1,32 @@
+/* ── Fonts ─────────────────────────────────────────────────────────────── */
+@font-face {
+  font-family: 'Ginto Nord Condensed';
+  src: url('../fonts/ABCGintoNordCondensed-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ginto';
+  src: url('../fonts/ABCGinto-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ginto';
+  src: url('../fonts/ABCGinto-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* ── RVS brand ─────────────────────────────────────────────────────────── */
 /* Heritage Burgundy #b20051  |  Dark Purple #420044  |  Warm Grey #f2efeb */
 
 body {
   background: #f2efeb;
+  font-family: 'Ginto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 #content-wrapper {
   background: #fff;
@@ -14,7 +38,7 @@ header {
 }
 header h1,
 header h2 {
-  font-family: 'Barlow Condensed', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Ginto Nord Condensed', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 header h1 {
   font-weight: 700;
@@ -32,7 +56,7 @@ a:hover   { color: #420044; }
 #main-content h4,
 #main-content h5,
 #main-content h6 {
-  font-family: 'Barlow Condensed', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Ginto Nord Condensed', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
   color: #420044;
   text-indent: 0;
@@ -87,7 +111,7 @@ header .inner {
   border: none;
   border-radius: 1px;
   color: #2a2a2a;
-  font-family: 'Marker Felt', 'Permanent Marker', cursive;
+  font-family: 'Marker Felt', 'Chalkboard SE', 'Comic Sans MS', 'Segoe Print', cursive;
   font-size: 1.05rem;
   line-height: 1.55;
   transform-origin: top center;
