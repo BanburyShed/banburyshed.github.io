@@ -21,8 +21,7 @@ permalink: /repair-cafe/
 <section aria-labelledby="our-repair-cafe-heading">
   <h2 id="our-repair-cafe-heading">Repair Caf&eacute; at Banbury Shed</h2>
   <p>
-    Banbury Shed runs regular Repair Caf&eacute; sessions. Bring along something that needs
-    fixing and our volunteers will do their best to help. Tea and coffee are always on!
+    Banbury Shed runs regular Repair Caf&eacute; sessions. Bring along something you'd like to try fixing and our volunteers will do their best to help. Tea and coffee are always on!
   </p>
   <p>
     Keep an eye on our <a href="/news/">News</a> page and
