@@ -68,6 +68,8 @@ a:hover   { color: #420044; }
 #main-content h4:before,
 #main-content h5:before,
 #main-content h6:before { content: none; }
+#main-content h1 a, #main-content h2 a, #main-content h3 a,
+#main-content h4 a, #main-content h5 a, #main-content h6 a { color: inherit; }
 
 /* ── Site nav ──────────────────────────────────────────────────────────── */
 nav.site-nav {
