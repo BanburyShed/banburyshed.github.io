@@ -25,8 +25,8 @@ sessions:
       - user2
       - user3
     available:
-      - user4
       - user6
+      - user4
     unavailable:
       - user1
     time: "09:00"
@@ -41,9 +41,10 @@ sessions:
       - user4
     end_time: "11:00"
   - date: "2026-07-11"
-    status: tentative
+    status: confirmed
     supervisors:
       - user2
+      - user4
     available:
     unavailable:
       - user6
@@ -53,15 +54,16 @@ sessions:
     supervisors:
     available:
     unavailable:
-      - user4
       - user2
       - user6
       - user3
+      - user4
   - date: "2026-07-25"
     status: tentative
     supervisors:
     available:
       - user2
+      - user4
     unavailable:
       - user3
   - date: "2026-08-01"
@@ -69,13 +71,14 @@ sessions:
     supervisors:
     available:
     unavailable:
-      - user4
       - user2
       - user3
+      - user4
   - date: "2026-08-08"
     status: tentative
     supervisors:
     available:
+      - user4
     unavailable:
       - user3
   - date: "2026-08-15"
@@ -84,13 +87,14 @@ sessions:
     available:
       - user2
     unavailable:
-      - user4
       - user3
+      - user4
   - date: "2026-08-22"
     status: tentative
     supervisors:
     available:
       - user2
+      - user4
     unavailable:
       - user1
       - user3
@@ -105,42 +109,50 @@ sessions:
     status: tentative
     supervisors:
     available:
+      - user4
     unavailable:
       - user2
   - date: "2026-09-12"
     status: tentative
     supervisors:
     available:
+      - user4
     unavailable:
   - date: "2026-09-19"
     status: tentative
     supervisors:
     available:
+      - user4
     unavailable:
   - date: "2026-09-26"
     status: tentative
     supervisors:
     available:
+      - user4
     unavailable:
   - date: "2026-10-03"
     status: tentative
     supervisors:
     available:
+      - user4
     unavailable:
   - date: "2026-10-10"
     status: tentative
     supervisors:
     available:
+      - user4
     unavailable:
   - date: "2026-10-17"
     status: tentative
     supervisors:
     available:
+      - user4
     unavailable:
   - date: "2026-10-24"
     status: tentative
     supervisors:
     available:
+      - user4
     unavailable:
   - date: "2026-10-31"
     status: tentative
