@@ -25,11 +25,35 @@ leaflet: true
     New members are always welcome - just turn up!
   </p>
   <h2 id="faq-heading">Frequently Asked Questions</h2>
-  <h3>How much does it cost?</h3>
+  <h3>What tools do you have?</h3>
   <p>
-    Most of our full time members pay &pound;10 per month via standing order to our bank account.
-    Alternatively you can pay &pound;5 per session.
-    These subs are entirely optional and on the basis of your ability to pay.
+    We have lots of tools and equipment for woodworking, metalworking and electronics projects. These include:
+    <ul>
+      <li>Woodworking lathes</li>
+      <li>Pillar drill</li>
+      <li>Small metalworking lathe</li>
+      <li>Hand tools (hammers, screwdrivers, saws, chisels, files etc.)</li>
+      <li>Fasteners: screws, nuts, bolts, rivets etc.</li>
+      <li>Bandsaws</li>
+      <li>Chop saws</li>
+    </ul>
+  </p>
+  <h3>Can you teach me how to use the tools?</h3>
+  <p>
+    Of course! We are a sharing environment. Also, if you have any skills, we'd love to learn from you.
+  </p>
+  <h3>Can I bring children along?</h3>
+  <p>
+    Unfortunately due to insurance reasons we only admit adults into the shed.
+  </p>
+  <h3>Are there any tools you don't have?</h3>
+  <p>
+    For insurance reasons we are not able to use:
+    <ul>
+      <li>Table saws</li>
+      <li>Welding equipment</li>
+      <li>Anything involving a naked flame or fire</li>
+    </ul>
   </p>
   <h3>How much does it cost?</h3>
   <p>
@@ -37,7 +61,6 @@ leaflet: true
     Alternatively you can pay &pound;5 per session.
     These subs are entirely optional and on the basis of your ability to pay.
   </p>
-
 </section>
 
 {% include find-us.html %}
