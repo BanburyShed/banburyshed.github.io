@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<article>
+  <h2>{{ page.title }}</h2>
+  <p><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %B %Y" }}</time></p>
+  {{ content }}
+  {% if page.source == "facebook" %}
+  <p class="post-source"><em>This post was originally published on <a href="https://www.facebook.com/BanburyShed" target="_blank" rel="noopener">our Facebook page</a>.</em></p>
+  {% endif %}
+  {% if page.images and page.images.size > 0 %}
+  <div class="post-images">
+    {% for image in page.images %}
+    <img src="{{ image | relative_url }}" alt="{{ page.title }}">
+    {% endfor %}
+  </div>
+  {% endif %}
+</article>
+
+<nav class="post-nav" aria-label="Post navigation">
+  {% if page.previous %}
+  <a href="{{ page.previous.url | relative_url }}" class="post-nav-link post-nav-prev">
+    <span class="post-nav-label">&larr; Older</span>
+    <span class="post-nav-title">{{ page.previous.title }}</span>
+  </a>
+  {% endif %}
+  {% if page.next %}
+  <a href="{{ page.next.url | relative_url }}" class="post-nav-link post-nav-next">
+    <span class="post-nav-label">Newer &rarr;</span>
+    <span class="post-nav-title">{{ page.next.title }}</span>
+  </a>
+  {% endif %}
+</nav>

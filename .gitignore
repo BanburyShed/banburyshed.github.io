@@ -15,4 +15,9 @@ _site/
 # This means GitHub Pages will NOT use your Gemfile.lock and therefore it is
 # counterproductive to check this file into the repository.
 # Details at https://github.com/github/pages-gem/issues/768
+#
+# The preview server uses `bundle install` directly and would honour
+# Gemfile.lock, but the Pi is running Ruby 2.7 (EOL) which is incompatible
+# with the Bundler version needed to generate a working cross-platform
+# lockfile. Revisit once Ruby is upgraded on the Pi.
 Gemfile.lock

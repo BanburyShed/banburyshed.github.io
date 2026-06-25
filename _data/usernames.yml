@@ -1,0 +1,15 @@
+users:
+  user1:
+    name: Dave
+  user2:
+    name: Jon
+  user3:
+    name: Jim
+  user4:
+    name: Simon
+  user5:
+    name: George
+  user6:
+    name: Colin
+  user7:
+    name: Scotty

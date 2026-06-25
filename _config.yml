@@ -1,0 +1,14 @@
+title: Banbury Shed
+repository: BanburyShed/banburyshed.github.io
+description: Banbury Shed community website
+markdown: kramdown
+theme: jekyll-theme-architect
+github:
+  is_project_page: false
+  project_tagline: Banbury Shed community website
+min_supervisors: 2
+default_meeting_time: "09:30"
+default_meeting_end_time: "13:00"
+paginate: 10
+paginate_path: "/news/page/:num/"
+
