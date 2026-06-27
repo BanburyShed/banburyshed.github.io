@@ -37,6 +37,7 @@ sessions:
     available:
       - user6
       - user3
+      - user1
     unavailable:
       - user4
     end_time: "11:00"
@@ -46,6 +47,7 @@ sessions:
       - user2
       - user4
     available:
+      - user1
     unavailable:
       - user6
       - user3
@@ -96,8 +98,8 @@ sessions:
       - user2
       - user4
     unavailable:
-      - user1
       - user3
+      - user1
   - date: "2026-08-29"
     status: tentative
     supervisors:
