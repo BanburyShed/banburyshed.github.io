@@ -55,6 +55,7 @@ sessions:
     status: tentative
     supervisors:
     available:
+      - user1
     unavailable:
       - user2
       - user6
@@ -68,10 +69,13 @@ sessions:
       - user4
     unavailable:
       - user3
+      - user1
+    message: I hope to get an hour at Shed (but can’t help supervising this week)
   - date: "2026-08-01"
     status: tentative
     supervisors:
     available:
+      - user1
     unavailable:
       - user2
       - user3
@@ -81,6 +85,7 @@ sessions:
     supervisors:
     available:
       - user4
+      - user1
     unavailable:
       - user3
   - date: "2026-08-15"
@@ -88,6 +93,7 @@ sessions:
     supervisors:
     available:
       - user2
+      - user1
     unavailable:
       - user3
       - user4
@@ -105,6 +111,7 @@ sessions:
     supervisors:
       - user3
     available:
+      - user1
     unavailable:
       - user4
   - date: "2026-09-05"
@@ -112,6 +119,7 @@ sessions:
     supervisors:
     available:
       - user4
+      - user1
     unavailable:
       - user2
   - date: "2026-09-12"
@@ -119,18 +127,21 @@ sessions:
     supervisors:
     available:
       - user4
+      - user1
     unavailable:
   - date: "2026-09-19"
     status: tentative
     supervisors:
     available:
       - user4
+      - user1
     unavailable:
   - date: "2026-09-26"
     status: tentative
     supervisors:
     available:
       - user4
+      - user1
     unavailable:
   - date: "2026-10-03"
     status: tentative
