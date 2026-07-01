@@ -31,9 +31,10 @@ sessions:
       - user1
     time: "09:00"
   - date: "2026-07-04"
-    status: tentative
+    status: confirmed
     supervisors:
       - user2
+      - user5
     available:
       - user6
       - user3
@@ -48,6 +49,7 @@ sessions:
       - user4
     available:
       - user1
+      - user5
     unavailable:
       - user6
       - user3
@@ -61,6 +63,7 @@ sessions:
       - user6
       - user3
       - user4
+      - user5
   - date: "2026-07-25"
     status: tentative
     supervisors:
@@ -70,12 +73,14 @@ sessions:
     unavailable:
       - user3
       - user1
+      - user5
     message: I hope to get an hour at Shed (but can’t help supervising this week)
   - date: "2026-08-01"
     status: tentative
     supervisors:
     available:
       - user1
+      - user5
     unavailable:
       - user2
       - user3
@@ -86,6 +91,7 @@ sessions:
     available:
       - user4
       - user1
+      - user5
     unavailable:
       - user3
   - date: "2026-08-15"
@@ -97,6 +103,7 @@ sessions:
     unavailable:
       - user3
       - user4
+      - user5
   - date: "2026-08-22"
     status: tentative
     supervisors:
