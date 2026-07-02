@@ -78,9 +78,9 @@ sessions:
   - date: "2026-08-01"
     status: tentative
     supervisors:
+      - user5
     available:
       - user1
-      - user5
     unavailable:
       - user2
       - user3
@@ -88,10 +88,10 @@ sessions:
   - date: "2026-08-08"
     status: tentative
     supervisors:
+      - user5
     available:
       - user4
       - user1
-      - user5
     unavailable:
       - user3
   - date: "2026-08-15"
