@@ -56,8 +56,8 @@ sessions:
   - date: "2026-07-18"
     status: tentative
     supervisors:
-    available:
       - user1
+    available:
     unavailable:
       - user2
       - user3
