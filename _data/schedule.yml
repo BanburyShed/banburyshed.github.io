@@ -64,12 +64,12 @@ sessions:
       - user5
       - user6
   - date: "2026-07-25"
-    status: tentative
+    status: confirmed
     supervisors:
       - user4
+      - user6
     available:
       - user2
-      - user6
     unavailable:
       - user3
       - user5
@@ -90,8 +90,8 @@ sessions:
     supervisors:
       - user5
     available:
-      - user6
       - user4
+      - user6
     unavailable:
       - user3
       - user1
