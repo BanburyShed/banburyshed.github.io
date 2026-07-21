@@ -184,16 +184,19 @@ sessions:
     status: tentative
     supervisors:
     available:
+      - user4
     unavailable:
   - date: "2026-11-14"
     status: tentative
     supervisors:
     available:
+      - user4
     unavailable:
   - date: "2026-11-21"
     status: tentative
     supervisors:
     available:
+      - user4
     unavailable:
   - date: "2026-11-28"
     status: tentative
