@@ -2,8 +2,8 @@
 layout: post-with-gallery
 title: Refurbished Benches installed at Bridge Street Community Garden
 date: 2026-06-29
-author: user2
-featured: false
+author: user3
+featured: true
 images:
 - /assets/images/posts/2026-06-29-3dc510c3.jpg
 - /assets/images/posts/2026-06-29-7b5bf4fe.jpg
