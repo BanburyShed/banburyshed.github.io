@@ -1,0 +1,48 @@
+{% comment %}
+  Renders include.images (an array of file paths) as: nothing if empty, a
+  single image/video if there's one, or an interactive carousel with
+  previous/next controls and 10s autoplay if there's more than one.
+  Params: images (required), alt (required), variant ("thumb" or "gallery",
+  default "thumb"), link_originals (gallery only: wrap photos in a link to
+  the full-size file).
+{% endcomment %}
+{% assign images = include.images %}
+{% assign variant = include.variant | default: "thumb" %}
+{% if images and images.size > 0 %}
+  {% if images.size == 1 %}
+    {% assign image = images[0] %}
+    {% assign ext = image | split: '.' | last | downcase %}
+    {% if ext == 'mp4' or ext == 'webm' or ext == 'mov' %}
+<video src="{{ image | relative_url }}" controls class="photo-carousel-solo-video"></video>
+    {% elsif variant == "gallery" %}
+<div class="post-gallery">
+  {% if include.link_originals %}<a href="{{ image | relative_url }}" target="_blank" rel="noopener" class="post-gallery-item">{% endif %}
+    <img src="{{ image | relative_url }}" alt="{{ include.alt }}" loading="lazy"{% if include.link_originals %}{% else %} class="post-gallery-item"{% endif %}>
+  {% if include.link_originals %}</a>{% endif %}
+</div>
+    {% else %}
+<img src="{{ image | relative_url }}" alt="{{ include.alt }}" class="post-thumb" loading="lazy">
+    {% endif %}
+  {% else %}
+<div class="photo-carousel photo-carousel--{{ variant }}">
+  <div class="photo-carousel-track">
+    {% for image in images %}
+    {% assign ext = image | split: '.' | last | downcase %}
+    <div class="photo-carousel-slide">
+      {% if ext == 'mp4' or ext == 'webm' or ext == 'mov' %}
+      <video src="{{ image | relative_url }}" controls></video>
+      {% elsif include.link_originals %}
+      <a href="{{ image | relative_url }}" target="_blank" rel="noopener">
+        <img src="{{ image | relative_url }}" alt="{{ include.alt }}" loading="lazy">
+      </a>
+      {% else %}
+      <img src="{{ image | relative_url }}" alt="{{ include.alt }}" loading="lazy">
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+  <button type="button" class="photo-carousel-btn photo-carousel-prev" aria-label="Previous photo">&#8249;</button>
+  <button type="button" class="photo-carousel-btn photo-carousel-next" aria-label="Next photo">&#8250;</button>
+</div>
+  {% endif %}
+{% endif %}

@@ -11,20 +11,7 @@ layout: default
     {% endif %}
   </p>
   {{ content }}
-  {% if page.images and page.images.size > 0 %}
-  <div class="post-gallery">
-    {% for image in page.images %}
-      {% assign ext = image | split: '.' | last | downcase %}
-      {% if ext == 'mp4' or ext == 'webm' or ext == 'mov' %}
-    <video src="{{ image | relative_url }}" controls class="post-gallery-video"></video>
-      {% else %}
-    <a href="{{ image | relative_url }}" target="_blank" rel="noopener" class="post-gallery-item">
-      <img src="{{ image | relative_url }}" alt="{{ page.title }}" loading="lazy">
-    </a>
-      {% endif %}
-    {% endfor %}
-  </div>
-  {% endif %}
+  {% include photo-carousel.html images=page.images alt=page.title variant="gallery" link_originals=true %}
   {% if page.source == "facebook" %}
   <p class="post-source"><em>Originally published on <a href="https://www.facebook.com/BanburyShed" target="_blank" rel="noopener">our Facebook page</a>.</em></p>
   {% endif %}

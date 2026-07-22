@@ -11,6 +11,7 @@ title: News
     <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
     <p><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %B %Y" }}</time></p>
     {{ post.excerpt }}
+    {% include photo-carousel.html images=post.images alt=post.title variant="thumb" %}
   </article>
   {% endfor %}
 

@@ -23,9 +23,7 @@ New members are always welcome, just turn up!
 <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %B %Y" }}</time>
 
 {{ post.excerpt }}
-{% if post.images[0] %}
-<img src="{{ post.images[0] | relative_url }}" alt="{{ post.title }}" class="post-thumb">
-{% endif %}
+{% include photo-carousel.html images=post.images alt=post.title variant="thumb" %}
 {% endfor %}
 
 [All news →](/news/)
