@@ -97,15 +97,15 @@ sessions:
       - user3
       - user1
   - date: "2026-08-15"
-    status: tentative
+    status: confirmed
     supervisors:
+      - user1
       - user2
     available:
     unavailable:
       - user3
-      - user5
       - user4
-      - user1
+      - user5
   - date: "2026-08-22"
     status: tentative
     supervisors:
