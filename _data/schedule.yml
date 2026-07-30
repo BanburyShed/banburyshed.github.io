@@ -93,14 +93,14 @@ sessions:
     available:
       - user6
       - user4
+      - user1
     unavailable:
       - user3
-      - user1
   - date: "2026-08-15"
     status: confirmed
     supervisors:
-      - user1
       - user2
+      - user1
     available:
     unavailable:
       - user3
