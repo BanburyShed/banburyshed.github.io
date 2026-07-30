@@ -96,6 +96,7 @@ sessions:
       - user1
     unavailable:
       - user3
+    message: CLOSED TO PUBLIC ON THIS DATE
   - date: "2026-08-15"
     status: confirmed
     supervisors:
@@ -106,6 +107,7 @@ sessions:
       - user3
       - user4
       - user5
+    message: CLOSED TO PUBLIC ON THIS DATE
   - date: "2026-08-22"
     status: tentative
     supervisors:
