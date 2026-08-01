@@ -91,11 +91,11 @@ sessions:
       - user5
       - user2
     available:
-      - user6
       - user4
       - user1
     unavailable:
       - user3
+      - user6
     message: CLOSED TO PUBLIC ON THIS DATE
   - date: "2026-08-15"
     status: confirmed
@@ -103,6 +103,7 @@ sessions:
       - user2
       - user1
     available:
+      - user6
     unavailable:
       - user3
       - user4
