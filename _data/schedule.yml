@@ -99,7 +99,7 @@ sessions:
     message: CLOSED TO PUBLIC ON THIS DATE
     end_time: "23:00"
   - date: "2026-08-15"
-    status: confirmed
+    status: cancelled
     supervisors:
       - user2
       - user1
