@@ -109,7 +109,7 @@ sessions:
       - user3
       - user4
       - user5
-    message: CLOSED TO PUBLIC ON THIS DATE
+    message: Sat 15th Aug - CLOSED TO PUBLIC ON THIS DATE
   - date: "2026-08-22"
     status: tentative
     supervisors:
