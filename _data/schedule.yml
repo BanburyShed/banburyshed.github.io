@@ -116,6 +116,7 @@ sessions:
       - user2
     available:
       - user4
+      - user6
     unavailable:
       - user3
       - user1
@@ -128,6 +129,7 @@ sessions:
       - user4
       - user2
       - user1
+      - user6
   - date: "2026-09-05"
     status: tentative
     supervisors:
