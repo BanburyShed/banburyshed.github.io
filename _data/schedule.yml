@@ -136,6 +136,7 @@ sessions:
     available:
       - user4
       - user1
+      - user6
     unavailable:
       - user2
   - date: "2026-09-12"
@@ -145,6 +146,7 @@ sessions:
       - user4
       - user2
       - user1
+      - user6
     unavailable:
   - date: "2026-09-19"
     status: tentative
@@ -153,6 +155,7 @@ sessions:
       - user4
       - user2
       - user1
+      - user6
     unavailable:
   - date: "2026-09-26"
     status: tentative
