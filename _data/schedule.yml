@@ -120,6 +120,7 @@ sessions:
     unavailable:
       - user3
       - user1
+    message: Closed to public this week. Open again on 29th.
   - date: "2026-08-29"
     status: tentative
     supervisors:
@@ -128,15 +129,15 @@ sessions:
     unavailable:
       - user4
       - user2
-      - user1
       - user6
+      - user1
   - date: "2026-09-05"
     status: tentative
     supervisors:
     available:
       - user4
-      - user1
       - user6
+      - user1
     unavailable:
       - user2
   - date: "2026-09-12"
@@ -145,8 +146,8 @@ sessions:
     available:
       - user4
       - user2
-      - user1
       - user6
+      - user1
     unavailable:
   - date: "2026-09-19"
     status: tentative
@@ -154,8 +155,8 @@ sessions:
     available:
       - user4
       - user2
-      - user1
       - user6
+      - user1
     unavailable:
   - date: "2026-09-26"
     status: tentative
