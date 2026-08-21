@@ -118,8 +118,8 @@ sessions:
     available:
       - user6
     unavailable:
-      - user1
       - user3
+      - user1
     message: Closed to public this week. Open again on 29th.
   - date: "2026-08-29"
     status: tentative
