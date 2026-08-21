@@ -111,15 +111,15 @@ sessions:
       - user5
     message: Sat 15th Aug - CLOSED TO PUBLIC ON THIS DATE
   - date: "2026-08-22"
-    status: tentative
+    status: confirmed
     supervisors:
       - user2
-    available:
       - user4
+    available:
       - user6
     unavailable:
-      - user3
       - user1
+      - user3
     message: Closed to public this week. Open again on 29th.
   - date: "2026-08-29"
     status: tentative
