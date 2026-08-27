@@ -127,10 +127,10 @@ sessions:
       - user3
       - user5
     available:
+      - user1
     unavailable:
       - user2
       - user6
-      - user1
       - user4
   - date: "2026-09-05"
     status: tentative
@@ -138,8 +138,8 @@ sessions:
       - user5
     available:
       - user6
-      - user1
       - user4
+      - user1
     unavailable:
       - user2
   - date: "2026-09-12"
@@ -149,8 +149,8 @@ sessions:
     available:
       - user2
       - user6
-      - user1
       - user4
+      - user1
     unavailable:
   - date: "2026-09-19"
     status: tentative
@@ -158,15 +158,15 @@ sessions:
     available:
       - user2
       - user6
-      - user1
       - user4
+      - user1
     unavailable:
   - date: "2026-09-26"
     status: tentative
     supervisors:
     available:
-      - user1
       - user4
+      - user1
     unavailable:
   - date: "2026-10-03"
     status: tentative
