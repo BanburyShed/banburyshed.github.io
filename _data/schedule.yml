@@ -122,9 +122,10 @@ sessions:
       - user1
     message: Closed to public this week. Open again on 29th.
   - date: "2026-08-29"
-    status: tentative
+    status: confirmed
     supervisors:
       - user3
+      - user5
     available:
     unavailable:
       - user2
