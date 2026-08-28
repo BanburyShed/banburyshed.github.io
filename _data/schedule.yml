@@ -138,18 +138,18 @@ sessions:
       - user5
     available:
       - user6
-      - user4
       - user1
+      - user4
     unavailable:
       - user2
   - date: "2026-09-12"
-    status: tentative
+    status: confirmed
     supervisors:
       - user5
+      - user4
     available:
       - user2
       - user6
-      - user4
       - user1
     unavailable:
   - date: "2026-09-19"
@@ -158,15 +158,15 @@ sessions:
     available:
       - user2
       - user6
-      - user4
       - user1
+      - user4
     unavailable:
   - date: "2026-09-26"
     status: tentative
     supervisors:
     available:
-      - user4
       - user1
+      - user4
     unavailable:
   - date: "2026-10-03"
     status: tentative
