@@ -143,15 +143,15 @@ sessions:
     unavailable:
       - user2
   - date: "2026-09-12"
-    status: confirmed
+    status: tentative
     supervisors:
-      - user5
       - user4
     available:
       - user1
       - user6
     unavailable:
       - user2
+      - user5
   - date: "2026-09-19"
     status: tentative
     supervisors:
