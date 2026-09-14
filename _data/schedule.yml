@@ -153,9 +153,10 @@ sessions:
       - user2
       - user5
   - date: "2026-09-19"
-    status: tentative
+    status: confirmed
     supervisors:
       - user4
+      - user5
     available:
       - user2
       - user6
