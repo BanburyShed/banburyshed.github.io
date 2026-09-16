@@ -155,8 +155,8 @@ sessions:
   - date: "2026-09-19"
     status: confirmed
     supervisors:
-      - user4
       - user5
+      - user4
     available:
       - user2
       - user6
@@ -203,8 +203,8 @@ sessions:
     status: tentative
     supervisors:
     available:
-      - user4
     unavailable:
+      - user4
   - date: "2026-11-14"
     status: tentative
     supervisors:
