@@ -163,11 +163,11 @@ sessions:
       - user1
     unavailable:
   - date: "2026-09-26"
-    status: tentative
+    status: confirmed
     supervisors:
       - user1
-    available:
       - user4
+    available:
     unavailable:
       - user2
   - date: "2026-10-03"
