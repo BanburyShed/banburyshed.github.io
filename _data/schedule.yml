@@ -173,26 +173,26 @@ sessions:
   - date: "2026-10-03"
     status: tentative
     supervisors:
-      - user4
     available:
+      - user4
     unavailable:
   - date: "2026-10-10"
     status: tentative
     supervisors:
     available:
-      - user4
     unavailable:
+      - user4
   - date: "2026-10-17"
     status: tentative
     supervisors:
-    available:
       - user4
+    available:
     unavailable:
   - date: "2026-10-24"
     status: tentative
     supervisors:
-    available:
       - user4
+    available:
     unavailable:
   - date: "2026-10-31"
     status: tentative
