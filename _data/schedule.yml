@@ -179,6 +179,7 @@ sessions:
   - date: "2026-10-10"
     status: tentative
     supervisors:
+      - user5
     available:
     unavailable:
       - user4
@@ -188,12 +189,14 @@ sessions:
       - user4
     available:
     unavailable:
+      - user5
   - date: "2026-10-24"
     status: tentative
     supervisors:
       - user4
     available:
     unavailable:
+      - user5
   - date: "2026-10-31"
     status: tentative
     supervisors:
@@ -237,6 +240,7 @@ sessions:
   - date: "2026-12-19"
     status: tentative
     supervisors:
+      - user5
     available:
     unavailable:
   - date: "2026-12-26"
