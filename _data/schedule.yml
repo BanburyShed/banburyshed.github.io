@@ -211,6 +211,7 @@ sessions:
       - user1
     unavailable:
       - user2
+      - user5
   - date: "2026-11-07"
     status: tentative
     supervisors:
@@ -218,6 +219,7 @@ sessions:
       - user1
     unavailable:
       - user4
+      - user5
   - date: "2026-11-14"
     status: tentative
     supervisors:
@@ -225,6 +227,7 @@ sessions:
       - user1
     unavailable:
       - user4
+      - user5
   - date: "2026-11-21"
     status: tentative
     supervisors:
@@ -232,6 +235,7 @@ sessions:
     available:
       - user1
     unavailable:
+      - user5
   - date: "2026-11-28"
     status: tentative
     supervisors:
@@ -239,12 +243,14 @@ sessions:
     available:
       - user1
     unavailable:
+      - user5
   - date: "2026-12-05"
     status: tentative
     supervisors:
     available:
     unavailable:
       - user4
+      - user5
   - date: "2026-12-12"
     status: tentative
     supervisors:
@@ -252,6 +258,7 @@ sessions:
       - user4
       - user1
     unavailable:
+      - user5
   - date: "2026-12-19"
     status: tentative
     supervisors:
