@@ -190,8 +190,8 @@ sessions:
     supervisors:
       - user4
     available:
-      - user1
       - user2
+      - user1
     unavailable:
       - user5
   - date: "2026-10-24"
@@ -199,8 +199,8 @@ sessions:
     supervisors:
       - user4
     available:
-      - user1
       - user2
+      - user1
     unavailable:
       - user5
   - date: "2026-10-31"
@@ -208,10 +208,10 @@ sessions:
     supervisors:
     available:
       - user4
-      - user1
     unavailable:
       - user2
       - user5
+      - user1
   - date: "2026-11-07"
     status: tentative
     supervisors:
