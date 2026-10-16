@@ -186,12 +186,12 @@ sessions:
     unavailable:
       - user4
   - date: "2026-10-17"
-    status: tentative
+    status: confirmed
     supervisors:
       - user4
+      - user1
     available:
       - user2
-      - user1
     unavailable:
       - user5
   - date: "2026-10-24"
