@@ -197,8 +197,8 @@ sessions:
   - date: "2026-10-24"
     status: confirmed
     supervisors:
-      - user2
       - user4
+      - user2
     available:
       - user1
     unavailable:
@@ -208,8 +208,8 @@ sessions:
     supervisors:
     available:
       - user4
-    unavailable:
       - user2
+    unavailable:
       - user5
       - user1
   - date: "2026-11-07"
