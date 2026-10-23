@@ -195,11 +195,11 @@ sessions:
     unavailable:
       - user5
   - date: "2026-10-24"
-    status: tentative
+    status: confirmed
     supervisors:
+      - user2
       - user4
     available:
-      - user2
       - user1
     unavailable:
       - user5
