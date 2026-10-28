@@ -266,6 +266,7 @@ sessions:
       - user5
     available:
       - user4
+      - user1
     unavailable:
   - date: "2026-12-26"
     status: closed
