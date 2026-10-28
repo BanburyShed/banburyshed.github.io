@@ -204,18 +204,22 @@ sessions:
     unavailable:
       - user5
   - date: "2026-10-31"
-    status: tentative
+    status: confirmed
     supervisors:
       - user1
+      - user3
     available:
       - user4
       - user2
     unavailable:
       - user5
-    message: Shed will be open shorter hours this morning- 9.30 - 12 noon.
+    message: Shed will be open shorter hours this morning- 9.00 - 12 noon.
+    time: "09:00"
+    end_time: "12:00"
   - date: "2026-11-07"
-    status: tentative
+    status: confirmed
     supervisors:
+      - user3
     available:
       - user1
     unavailable:
@@ -226,6 +230,7 @@ sessions:
     supervisors:
     available:
       - user1
+      - user3
     unavailable:
       - user5
       - user4
@@ -235,6 +240,7 @@ sessions:
       - user4
     available:
       - user1
+      - user3
     unavailable:
       - user5
   - date: "2026-11-28"
