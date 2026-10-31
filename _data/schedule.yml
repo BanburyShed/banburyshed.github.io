@@ -220,6 +220,7 @@ sessions:
     status: confirmed
     supervisors:
       - user3
+      - user6
     available:
       - user1
     unavailable:
@@ -231,6 +232,7 @@ sessions:
     available:
       - user1
       - user3
+      - user6
     unavailable:
       - user5
       - user4
