@@ -227,15 +227,16 @@ sessions:
       - user5
       - user4
   - date: "2026-11-14"
-    status: tentative
+    status: confirmed
     supervisors:
-    available:
       - user1
+      - user2
+    available:
       - user3
       - user6
     unavailable:
-      - user5
       - user4
+      - user5
   - date: "2026-11-21"
     status: tentative
     supervisors:
