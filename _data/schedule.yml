@@ -249,9 +249,10 @@ sessions:
       - user5
       - user2
   - date: "2026-11-28"
-    status: tentative
+    status: confirmed
     supervisors:
       - user4
+      - user3
     available:
       - user1
     unavailable:
@@ -264,6 +265,7 @@ sessions:
     unavailable:
       - user5
       - user4
+      - user3
   - date: "2026-12-12"
     status: tentative
     supervisors:
@@ -272,6 +274,7 @@ sessions:
       - user1
     unavailable:
       - user5
+      - user3
   - date: "2026-12-19"
     status: tentative
     supervisors:
@@ -280,6 +283,7 @@ sessions:
       - user4
       - user1
     unavailable:
+      - user3
   - date: "2026-12-26"
     status: closed
     message: WE ARE CLOSED FOR CHRISTMAS.
