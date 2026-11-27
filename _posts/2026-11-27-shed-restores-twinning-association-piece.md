@@ -7,6 +7,7 @@ featured: true
 images:
 - /assets/images/posts/2026-11-27-a27538a7.jpg
 - /assets/images/posts/2026-11-27-ef96c8d6.jpg
+- /assets/images/posts/2026-11-27-c38639ce.jpg
 ---
 A lovely piece of our twinning history has found a new home!
 Chairman of the Twinning Association, John Donaldson officially presented a historic stained glass panel to Banbury Mayor Cllr Mark Cherry. 
